@@ -1,0 +1,13 @@
+# Pins the Streamlit theme so native widgets (inputs, tabs, progress bar, dropdowns)
+# match the design tokens in app.py, whatever the visitor's OS theme is.
+[theme]
+base = "dark"
+primaryColor = "#5CC2B6"
+backgroundColor = "#101A18"
+secondaryBackgroundColor = "#17241F"
+textColor = "#EEF2EF"
+font = "sans serif"
+
+[browser]
+# The app promises that nothing sensitive leaves the session, so turn off Streamlit's own usage stats too.
+gatherUsageStats = false
